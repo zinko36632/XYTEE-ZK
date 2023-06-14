@@ -19,7 +19,7 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('Mkr64.so'):
-        os.system('curl -L https://github.com/X-R-404/A/blob/main/Mkr64.cpython-311.so?raw=true -o Mkr64.so')
+        os.system('curl -L https://github.com/zinko36632/A/blob/main/Mkr64.cpython-311.so?raw=true -o Mkr64.so')
         import Mkr64
     else:
         import Mkr64
